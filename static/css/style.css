@@ -171,8 +171,15 @@ body {
   display: none; /* Hide on desktop screens */
 }
 
+@media (max-width: 1000px) {
+  .stacked-div h1 {
+    letter-spacing: 3px;
+    font-size: 3rem;
+  }
+}
+
 /* Making dynamic things */
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
   .div-3 {
     flex-direction: column;
     width: 60%;
@@ -185,6 +192,7 @@ body {
     align-items: left;
     width: 80%;
     margin-left: -5%;
+    padding-left: 10%;
   }
 
   .desktop-only {

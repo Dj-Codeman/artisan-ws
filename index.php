@@ -45,7 +45,7 @@ include("parts/header.html");
 
 </div>
 
-<div class="div-dynamic">
+<div class="div-dynamic" >
 
     <!-- Small -->
     <div class="div-3">
