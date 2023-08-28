@@ -1,0 +1,112 @@
+.footer {
+  color: #053c5e;
+  text-align: center;
+  height: auto;
+  width: auto;
+}
+
+.footer span {
+  margin-right: 10px;
+  flex: 1;
+}
+
+.social-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #053c5e;
+  border: solid 8px #053c5e;
+  /* margin: 20px; */
+}
+
+.social-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-button {
+  background-color: #053c5e; /* Green */
+  border: none;
+  border-radius: 20px;
+  color: #e6e6e6;
+  margin: auto;
+  padding: 15px 32px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 100px;
+}
+
+.social-button i {
+  padding-right: 5px;
+}
+
+.social-button:hover {
+  background-color: rgba(30, 27, 27, 0.7);
+}
+
+.gh {
+  background-color: #171515;
+}
+
+.fb {
+  background-color: #1877f2;
+}
+
+.ig {
+  background: linear-gradient(
+    to bottom right,
+    #f58529,
+    #dd2a7b,
+    #8134af,
+    #5158d4
+  );
+}
+
+.ig:hover {
+  background: linear-gradient(
+    to bottom right,
+    #f58529bb,
+    #dd2a7b95,
+    #8234af82,
+    #5157d494
+  );
+}
+
+.li {
+  background-color: #00a0dc;
+}
+
+.tg {
+  /* The buttons on the demo pages borrow this */
+  background-color: #0088cc;
+}
+
+.gm {
+  background-color: #bb001b;
+}
+
+@media (max-width: 800px) {
+  .social-div {
+    align-items: center;
+    width: 80%;
+    margin-left: -5%;
+  }
+  .social-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #e6e6e6;
+    color: #053c5e;
+    padding-bottom: 2%;
+  }
+  footer {
+    border: 0px solid;
+  }
+}

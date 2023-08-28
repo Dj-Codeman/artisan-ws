@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code&display=swap");
+
+@font-face {
+  font-family: "generic";
+  src: url("/static/text/Architype\ Aubette\ W90.ttf");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Fira Code", monospace;
+  background-color: #e6e6e6;
+}
+
+.row-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: #053c5e solid 5px;
+  margin-top: 20px;
+}
+
+.row-div img {
+  height: 400px;
+  width: auto;
+}
+
+.stacked-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #053c5e;
+}
+
+.stacked-div span {
+  font-size: 2rem;
+}
+
+.stacked-div p {
+  margin-top: -15px;
+  font-size: 2rem;
+}
+
+.stacked-div h1 {
+  font-family: "generic";
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+
+.stacked-div h4 {
+  margin-bottom: -20px;
+  padding-bottom: 2%;
+  font-size: 20px;
+  font-family: "Fira Code", monospace;
+}
+
+.hacked {
+  background-color: #0e0707;
+  font-family: "generic";
+  text-transform: uppercase;
+  color: #00ff00;
+  padding: 20px;
+  width: 90%;
+}
+
+.hacked h1 {
+  font-size: 2.5rem;
+}
+
+.hacked p {
+  padding-left: 10%;
+  text-align: left;
+  font-size: 2rem;
+}
+
+.dotted-line {
+  border-width: 10px;
+  border-style: dotted none none;
+  width: 20%;
+  border-color: #053c5e;
+  margin-bottom: 50px;
+}
+
+.text {
+  width: 100%;
+  padding: 6px;
+  border: #053c5e solid 1px;
+  background: #e6e6e6;
+}
+
+.text:hover {
+  border: #1e5e86 solid 3px;
+  background: #f3f3f3;
+}
+
+.button {
+  background-color: #053c5e; /* Green */
+  border: none;
+  border-radius: 20px;
+  color: white;
+  margin-top: 6px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.button:hover {
+  background-color: #1e5e86; /* Green */
+  color: white;
+}
+
+.div-dynamic {
+  display: flex;
+  justify-content: space-between; /* Distribute items along the row */
+  flex-wrap: wrap; /* Wrap items to new line on smaller displays */
+  align-items: center;
+  padding: 20px;
+}
+
+.div-3 {
+  color: #0e0707;
+  border: #053c5e solid 5px;
+  border-radius: 20px;
+  background-color: #e6e6e6;
+  padding: 20px;
+  margin: 10px;
+  width: 100px;
+  text-align: center;
+  flex: 1; /* Equal width for items */
+}
+
+.div-3 img {
+  width: 100%;
+  height: 50%;
+  display: block;
+}
+
+.div-3 h2 {
+  text-align: center;
+  color: #053c5e;
+}
+
+.div-3 button {
+  align-items: center;
+  cursor: crosshair;
+  margin: 10px;
+  padding: 10px 20px;
+}
+
+.div-3 .image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent overlay */
+  pointer-events: none; /* Allow interactions with content beneath */
+}
+
+/* dynamic thangs */
+
+.desktop-only {
+  display: block; /* Display on desktop screens */
+}
+
+.mobile-only {
+  display: none; /* Hide on desktop screens */
+}
+
+/* Making dynamic things */
+@media (max-width: 800px) {
+  .div-3 {
+    flex-direction: column;
+    width: 60%;
+    flex: 0 0 100%; /* Full width on smaller displays */
+  }
+  .div-3 p {
+    font-size: 20px;
+  }
+  .div-dynamic {
+    align-items: left;
+    width: 80%;
+    margin-left: -5%;
+  }
+
+  .desktop-only {
+    display: none; /* Hide on small screens */
+  }
+
+  .mobile-only {
+    display: block; /* Display on small screens */
+  }
+
+  .stacked-div p {
+    font-size: 1rem;
+    text-align: left;
+  }
+
+  .row-div {
+    position: relative;
+    flex-direction: column;
+  }
+
+  .row-div p {
+    padding-left: 20px;
+    padding-right: 5px;
+    text-align: center;
+  }
+
+  .row-div h4 {
+    padding-top: 20px;
+    font-family: "Fira Code", monospace;
+  }
+
+  .row-div a {
+    margin-top: 20px;
+  }
+}
+
+/* @media (max-width: 2000px) {
+  .div-dynamic {
+    margin-top: 40%;
+  }
+} */
