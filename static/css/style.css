@@ -45,6 +45,7 @@ body {
 .stacked-div h1 {
   font-family: "generic";
   text-transform: uppercase;
+  letter-spacing: 2px;
   font-size: 3rem;
 }
 

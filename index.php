@@ -100,7 +100,7 @@ include("parts/header.html");
 
 <div class="stacked-div desktop-only" style="margin-bottom: -60px; width: 60%; padding-left: 20%; ">
     <h1> Interested ? </h1>
-    <p>
+    <p style="padding-bottom: 40px;" >
         At Artisan Hosting, we're dedicated to growth and improvement, and that means exciting updates are always on the
         horizon. By following or connecting with us, you'll be the first to know about new features, enhancements, and
         insights.
