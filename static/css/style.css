@@ -58,7 +58,7 @@ body {
 
 .hacked {
   background-color: #0e0707;
-  font-family: "generic";
+  font-family: "Fira Code" monospace;
   text-transform: uppercase;
   color: #00ff00;
   padding: 20px;
