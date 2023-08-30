@@ -56,9 +56,9 @@ include("parts/header.html");
                     storing and managing files, documents, photos, and more. With Nextcloud, you can access your data
                     from any device, securely share files with others, collaborate in real-time on documents, and
                     synchronize your files across various devices.</p>
-                <h4 style="margin-top: -10px;">USERNAME: artisan-guest</h4>
-                <h4 style="margin-top: -7px;">PASSWORD: none</h4>
-                <a class="button tg" href="https://cloud.ramfield.net" target="_blank"><i class="fa fa-cloud"
+                <h4 style="margin-top: -10px;">USERNAME: </br> artisan-guest</h4>
+                <h4 style="margin-top: -7px;">PASSWORD: </br> none</h4>
+                <a class="button tg" href="https://www.artisanhosting.net/under_contruction.php" target="_blank"><i class="fa fa-cloud"
                         style="padding-right: 10px;"></i>NEXTCLOUD</a>
 
             </div>
@@ -111,8 +111,8 @@ include("parts/header.html");
                     behavior of visitors on your website. It provides insights into how people interact with your site,
                     which pages they visit, how long they stay, and more, all while respecting their privacy. This one
                     is more personal the best example is the show you the data for this website.</p>
-                <a class="button tg" href="https://demo.arhst.net" target="_blank"><i
-                        class="fa fa-desktop" style="padding-right: 10px;"></i>Wordpress</a>
+                <a class="button tg" href="https://demo.arhst.net" target="_blank"><i class="fa fa-desktop"
+                        style="padding-right: 10px;"></i>Wordpress</a>
 
             </div>
         </div>
