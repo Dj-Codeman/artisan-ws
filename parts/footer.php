@@ -12,7 +12,7 @@
         <a class="social-button fb" href="https://facebook.com" target="_blank"><i
                 class="fab fa-facebook"></i>FACEBOOK</a>
 
-        <a class="social-button ig" href="https://instagram.com" target="_blank"><i
+        <a class="social-button ig" href="https://instagram.com/artisanhosting" target="_blank"><i
                 class="fab fa-instagram"></i>INSTA</a>
 
         <a class="social-button li" href="https://www.linkedin.com/in/darrion-whitfield-a51665259" target="_blank"><i
