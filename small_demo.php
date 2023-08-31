@@ -57,8 +57,8 @@ include("parts/header.html");
                     from any device, securely share files with others, collaborate in real-time on documents, and
                     synchronize your files across various devices.</p>
                 <h4 style="margin-top: -10px;">USERNAME: </br> artisan-guest</h4>
-                <h4 style="margin-top: -7px;">PASSWORD: </br> none</h4>
-                <a class="button tg" href="https://www.artisanhosting.net/under_contruction.php" target="_blank"><i class="fa fa-cloud"
+                <h4 style="margin-top: -7px;">PASSWORD: </br> Artisantest1!</h4>
+                <a class="button tg" href="https://cloud.ramfield.net" target="_blank"><i class="fa fa-cloud"
                         style="padding-right: 10px;"></i>NEXTCLOUD</a>
 
             </div>
@@ -107,11 +107,13 @@ include("parts/header.html");
             <div class="stacked-div">
                 <h1> Wordpress </h1>
                 <p style="font-size: 25px;">
-                    Plausible Analytics is a user-friendly web analytics tool that helps you track and understand the
-                    behavior of visitors on your website. It provides insights into how people interact with your site,
-                    which pages they visit, how long they stay, and more, all while respecting their privacy. This one
-                    is more personal the best example is the show you the data for this website.</p>
-                <a class="button tg" href="https://demo.arhst.net" target="_blank"><i class="fa fa-desktop"
+                    Discover the limitless possibilities of a hosted WordPress instance with Artisan Hosting. Our
+                    platform empowers you to shape your digital space exactly as you envision it, offering a canvas
+                    where your ideas can come to life. Whether you're a blogger, entrepreneur, or creative soul, our
+                    robust hosting ensures your website is backed by powerful technology and unwavering support. Craft
+                    your content, design your layout, and build your online haven with confidence, knowing that Artisan
+                    Hosting is here to support your digital journey every step of the way.</p>
+                <a class="button tg" href="https://www.artisanhosting.net/under_contruction.php" target="_blank"><i class="fa fa-desktop"
                         style="padding-right: 10px;"></i>Wordpress</a>
 
             </div>
