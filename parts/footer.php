@@ -9,7 +9,7 @@
         <a class="social-button gh" href="https://github.com/Dj-Codeman" target="_blank">
             <i class="fab fa-github"></i>GITHUB</a>
 
-        <a class="social-button fb" href="https://facebook.com" target="_blank"><i
+        <a class="social-button fb" href="https://instagram.com/artisanhosting" target="_blank"><i
                 class="fab fa-facebook"></i>FACEBOOK</a>
 
         <a class="social-button ig" href="https://instagram.com/artisanhosting" target="_blank"><i
